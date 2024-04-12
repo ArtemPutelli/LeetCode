@@ -7,7 +7,7 @@
 //  An intuitive approach is to determine the average wall size and the available depth.
 //
 //  Approach
-//  to solve we have to find the maximum heights on the left and right
+//  To solve we have to find the maximum heights on the left and right
 //  Then take the smaller height
 //  Subtract the height where our current index is located so that we get the volume available to us for each position
 //  I note that negative results should not be taken into account
