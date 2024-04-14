@@ -5,20 +5,18 @@
 //
 //  Intuition
 //  intuitively we can understand that we need to traverse the tree,
-//  find the last left nodes of the tree that do not have node,
-//  that is, leaves, and return their sum
+//  find the last left nodes of the tree, that is leaves, and return their sum
 //
 //  Approach
-//  we recursively call our function that takes the values of the left node,
-//  provided that it does not have a right child and a left child,
-//  then sum the objects found and return the sum
+//  we call our function recursively, each iteration we take the values ​​stored in the node,
+//  provided that it does not have a right and left child element,
+//  then we sum the found objects and return the sum
 //
 //  Complexity
 //  Time complexity:
 //  O(n)
 //  Space complexity:
-//  O(n)
-//
+//  O(1)
 
 class Solution {
     var sumLeftLeaves = 0
